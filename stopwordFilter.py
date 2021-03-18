@@ -11,8 +11,8 @@ class stopwordFilter:
         self.stopword = set()
         self.myDB = myDB
         self.tagger = Mecab(dicpath=r"C:\mecab\mecab-ko-dic")
-        self.typoList = list()
-        self.initTypoChanger()
+        # self.typoList = list()
+        # self.initTypoChanger()
 
     # 불용어가 잘 처리되는지 확인하기 위해 DB의 재료를 ingredient.txt 로 받은 뒤
     # 불용어 처리한 재료를 ingredientListElimStopword.txt 에 다시 써서 제대로 가공됬는지 확인한다
